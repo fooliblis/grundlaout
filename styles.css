@@ -1,0 +1,39 @@
+header {
+  background-color: red;
+}
+
+section {
+  background-color: cyan;
+  border: 4px;
+  /* display:
+    grid;
+  grid-template-columns: 3fr 3fr; */
+  display: flex;
+}
+
+article {
+  background-color: darkred;
+  padding-left: 4px;
+  color: white;
+}
+
+/* article {
+  background-color: white;
+} */
+body {
+  background-color: gray;
+}
+
+footer {
+  background-color: red;
+  padding: 15px
+}
+
+a {
+  color: hsl(360, 100%, 90%);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
